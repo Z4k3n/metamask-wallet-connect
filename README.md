@@ -1,3 +1,7 @@
+# Connect metamask wallet to your project!
+
+With this simple code, we use a simple app made with react to connect our wallet adress and get the balance and address, simple but extremely useful for future projects or simple wallet implementations!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
