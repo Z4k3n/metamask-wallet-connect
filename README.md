@@ -4,6 +4,10 @@ With this simple code, we use a simple app made with react to connect our wallet
 
 For more info, check out this awesome video made by @mikec3 https://www.youtube.com/watch?v=uWeK30vg35c
 
+It's important to mention that we need ethers import to make this projecto work, so we'll install it with:
+
+### 'npm install --save ethers'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
