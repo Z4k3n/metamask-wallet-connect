@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,46 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a,strong{
+  color: cyan;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  display: flex;
+  margin-left: 20px;
 }
+
+.box{
+
+  height: 7cm;
+  width: 28cm;
+
+  background: rgb(0,58,242);
+  background: linear-gradient(54deg, rgba(0,58,242,1) 0%, rgba(255,24,24,1) 66%, rgba(252,176,69,1) 100%); 
+
+  border: 1px solid;
+  border-radius: 10px;
+
+}
+
+/* From uiverse.io by @adamgiebl */
+button {
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+ }
+ 
+ button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+ }
+ 
+ button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+ }
