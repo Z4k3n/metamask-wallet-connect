@@ -50,9 +50,14 @@ button {
  button:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em;
+  cursor: pointer;
  }
  
  button:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em;
  }
+
+.walletConnect{
+  font-family: 'Courier New', Courier, monospace;
+}
